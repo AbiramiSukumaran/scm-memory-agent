@@ -1,0 +1,3 @@
+.env
+node_modules/  #If using node modules.
+*.log         # Ignores all files ending in .log
