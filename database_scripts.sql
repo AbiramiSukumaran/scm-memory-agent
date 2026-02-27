@@ -98,7 +98,7 @@ WITH
 UPDATE
  products
 SET
- embedding = ai.embedding(text-embedding-005', name || ' ' || category || ' ' || distribution_center || ' ' || region)::vector
+ embedding = ai.embedding('text-embedding-005', name || ' ' || category || ' ' || distribution_center || ' ' || region)::vector
 FROM
  rows_to_update
 WHERE
