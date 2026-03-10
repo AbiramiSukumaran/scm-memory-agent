@@ -102,10 +102,9 @@ orchestrator = adk.Agent(
     3. If a specialist provides a long list, ensure only the top 10 items are shown initially.
     4. Conclude with a brief, high-level executive summary of what the data implies.
     """,
-    tools=[adk.tools.preload_memory_tool.PreloadMemoryTool()],
+    # the change-- Using the pre instantiated memory tool directly
+    tools=[adk.tools.preload_memory], 
     sub_agents=[inventory_agent, logistics_agent],
-    
-    #after_agent_callback=auto_save_session_to_memory_callback,
 )
 
 session_service = VertexAiSessionService(
