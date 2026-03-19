@@ -6,3 +6,20 @@ We will leverage Google's Agent Development Kit (ADK) to build a multi-agent arc
 
 ### For detailed steps refer to the codelab
 https://codelabs.developers.google.com/scm-alloydb-adk-memorybank
+
+
+### System architecture:
+<img width="976" height="732" alt="image" src="https://github.com/user-attachments/assets/0a6ea304-ec19-4172-9b01-f2a959bfbfab" />
+
+
+### Request flow: 
+<img width="1007" height="663" alt="image" src="https://github.com/user-attachments/assets/513f22f5-6955-45ba-8e56-49d67f243ef2" />
+
+
+
+### Agent delegation: 
+<img width="1178" height="720" alt="image" src="https://github.com/user-attachments/assets/978eaadb-7b54-41dc-9c8c-cd6403cfc649" />
+
+
+
+
